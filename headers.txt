@@ -8,10 +8,10 @@ Connection: keep-alive
 
 (Description)
 User agent is entity making call
-Accept all
+Accept all types of content
 Token postman sends while making request
 Host is where request is going to
-What type of encoding is used for the data
+What type of encoding can used for the data
 Connection is keep alive connection oriented
 
 Response headers:
@@ -31,13 +31,13 @@ Transfer-Encoding: chunked
 
 (Description)
 Content in response is json application with UTF-8 chars
-Vary headers
+Vary headers describe message being sent
 Content is encoded using gzip
 Date of request
 Server type that served request
 Cache control is private
-X-XSS is cross site scripting protection
-Content can be called from same origin
-Server protection
+X-XSS is cross site scripting protection 
+X-Frame-Options: Content can be called from same origin
+X-Content-Type-Options: Server protection
 Info on response in port 443
 Encoded using chunks
