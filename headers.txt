@@ -1,0 +1,43 @@
+Request headers:
+User-Agent: PostmanRuntime/7.30.0
+Accept: */*
+Postman-Token: a4659f23-a30a-4316-b308-2889ff7fb490
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+(Description)
+User agent is entity making call
+Accept all
+Token postman sends while making request
+Host is where request is going to
+What type of encoding is used for the data
+Connection is keep alive connection oriented
+
+Response headers:
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sat, 28 Jan 2023 20:04:07 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+(Description)
+Content in response is json application with UTF-8 chars
+Vary headers
+Content is encoded using gzip
+Date of request
+Server type that served request
+Cache control is private
+X-XSS is cross site scripting protection
+Content can be called from same origin
+Server protection
+Info on response in port 443
+Encoded using chunks
